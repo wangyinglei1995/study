@@ -366,7 +366,7 @@ Person.prototype.sleepFirst = function(delay){
 }
 ```
 
-### [实现promise](https://jasonandjay.github.io/study/zh/interview/ali.html#_1-es6)
+### [实现promise](https://wangyinglei1995.github.io/study/zh/interview/ali.html#_1-es6)
 - 一. 先执行Promise的参数，保存结果，当调用then的时候执行真正的回调
 - 二. 利用异步让Promise构造函数内部的resolve和reject晚于真正的回调执行
 
