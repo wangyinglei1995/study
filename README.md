@@ -1,6 +1,6 @@
-<p align="center">
+<!-- <p align="center">
   <img width="280" src="https://avatars1.githubusercontent.com/u/8192412?s=460&v=4" alt="logo">
-</p>
+</p> -->
 
 ## Target
 Collect quality content and classical problem
