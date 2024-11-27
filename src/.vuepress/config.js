@@ -26,7 +26,6 @@ module.exports = {
   theme: 'vue',
   themeConfig: {
     repo: 'wangyinglei1995/study',
-
     docsDir: 'src',
     editLinks: true,
 
@@ -34,7 +33,6 @@ module.exports = {
       '/': {
         label: '简体中文',
         repo: 'wangyinglei1995/study',
-
         selectText: '选择语言',
         editLinkText: '帮助我们改进内容',
         lastUpdated: '上次更新',
@@ -44,9 +42,18 @@ module.exports = {
             link: '/zh/standard/Start.md'
           },
           {
+            text: '面试相关',
+            items: [
+              { text: 'Jenkins自动化部署前端shell脚本', link: '/wyl/Jenkins.md'},
+              { text: '自动修改env方式', link: '/wyl/env.md'}
+            ]
+          },
+          {
             text: '算法',
             link: '/zh/algorithm/Index.md',
             items: [
+              { text: '最大子序列和', link: '/zh/algorithm/最大子序列和.md'},
+              { text: '最大字符出现次数', link: '/zh/algorithm/最大字符出现次数.md'},
               { text: '编程基本功', link: '/zh/algorithm/Charpter4.md'},
               { text: '数学趣题(一)', link: '/zh/algorithm/Charpter5.md'},
               { text: '数学趣题(二)', link: '/zh/algorithm/Charpter6.md'}
@@ -72,10 +79,11 @@ module.exports = {
           {
             text: '经典面试题',
             items: [
+              { text: '面试题', link: '/zh/interview/mst.md'},
               { text: '面试必看', link: '/zh/interview/index.md'},
               { text: '阿里巴巴', link: '/zh/interview/ali.md'},
-              { text: '三年前端', link: '/zh/interview/threeYear.md'},
-              { text: '龙湖地产', link: '/zh/interview/longhu.md'}
+              // { text: '三年前端', link: '/zh/interview/threeYear.md'},
+              // { text: '龙湖地产', link: '/zh/interview/longhu.md'}
             ]
           },
           {
@@ -94,13 +102,22 @@ module.exports = {
               { text: 'TouTiao', link: '/zh/interface/TouTiao.md'}
             ]
           },
-          {
-            text: '语言',
+             {
+            text: 'web',
             items: [
-              { text: 'Chinese', link: '/language/chinese' },
-              { text: 'Japanese', link: '/language/japanese' }
+              { text: 'csrf', link: '/wyl/web/csrf' },
+              { text: 'SSE', link: '/wyl/web/SSE' },
+              { text: 'xss', link: '/wyl/web/xss' },
+              { text: '跨域', link: '/wyl/web/跨域' }
             ]
           },
+          // {
+          //   text: '语言',
+          //   items: [
+          //     { text: 'Chinese', link: '/language/chinese' },
+          //     { text: 'Japanese', link: '/language/japanese' }
+          //   ]
+          // },
           {
             text: '配置参考',
             link: '/config/'
